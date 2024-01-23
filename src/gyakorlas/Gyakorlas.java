@@ -111,7 +111,7 @@ public class Gyakorlas {
         String ujszoveg=szoveg.replace(" ", "@");
         System.out.println(ujszoveg);
         for (int i = 0; i < szoveg.length(); i++) {
-            String betu=szoveg.charAt(i);
+            char betu=szoveg.charAt(i);
         }
         
         
