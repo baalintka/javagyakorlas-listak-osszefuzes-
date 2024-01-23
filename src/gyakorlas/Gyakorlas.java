@@ -16,6 +16,7 @@ public class Gyakorlas {
          szorzata();
          parosszamok();
          listaosszefuz();
+         szokereses();
         
     }
 
@@ -97,6 +98,10 @@ public class Gyakorlas {
         }
        
         }
+
+    private static void szokereses() {
+        String szoveg="Talán nem sokan tudják, hogy külön neve is van annak a jelenségnek, ha egy mondatot,Talán görög nem sokan tudják, hogy külön neve is van annak a jelenségnek, ha egy mondatot";
+    }
     }
     
 
