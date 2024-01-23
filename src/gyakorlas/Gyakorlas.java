@@ -100,7 +100,21 @@ public class Gyakorlas {
         }
 
     private static void szokereses() {
+        String[] listam=new String[1];
+        String[] szolista=new String[1];
+        
         String szoveg="Talán nem sokan tudják, hogy külön neve is van annak a jelenségnek, ha egy mondatot,Talán görög nem sokan tudják, hogy külön neve is van annak a jelenségnek, ha egy mondatot";
+        ArrayList<String> Stringlistam = new ArrayList<String>();
+        Stringlistam.add(szoveg);
+        Stringlistam.toArray(listam);
+        System.out.println(listam[0]);
+        String ujszoveg=szoveg.replace(" ", "@");
+        System.out.println(ujszoveg);
+        for (int i = 0; i < szoveg.length(); i++) {
+            String betu=szoveg.charAt(i);
+        }
+        
+        
     }
     }
     
